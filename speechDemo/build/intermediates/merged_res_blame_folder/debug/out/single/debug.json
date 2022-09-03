@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "com.iflytek.voicedemo.speechDemo-merged_res-16:/layout_isvdemo.xml.flat",
+        "source": "com.iflytek.voicedemo.speechDemo-main-18:/layout/isvdemo.xml"
+    },
+    {
+        "merged": "com.iflytek.voicedemo.speechDemo-merged_res-16:/drawable_main_setting_btn_np.xml.flat",
+        "source": "com.iflytek.voicedemo.speechDemo-main-18:/drawable/main_setting_btn_np.xml"
+    },
+    {
+        "merged": "com.iflytek.voicedemo.speechDemo-merged_res-16:/xml_iat_setting.xml.flat",
+        "source": "com.iflytek.voicedemo.speechDemo-main-18:/xml/iat_setting.xml"
+    },
+    {
+        "merged": "com.iflytek.voicedemo.speechDemo-merged_res-16:/drawable_setting.png.flat",
+        "source": "com.iflytek.voicedemo.speechDemo-main-18:/drawable/setting.png"
+    },
+    {
+        "merged": "com.iflytek.voicedemo.speechDemo-merged_res-16:/xml_url_setting.xml.flat",
+        "source": "com.iflytek.voicedemo.speechDemo-main-18:/xml/url_setting.xml"
+    },
+    {
+        "merged": "com.iflytek.voicedemo.speechDemo-merged_res-16:/layout_title.xml.flat",
+        "source": "com.iflytek.voicedemo.speechDemo-main-18:/layout/title.xml"
+    },
+    {
+        "merged": "com.iflytek.voicedemo.speechDemo-merged_res-16:/layout_activity_group_manager.xml.flat",
+        "source": "com.iflytek.voicedemo.speechDemo-main-18:/layout/activity_group_manager.xml"
+    },
+    {
+        "merged": "com.iflytek.voicedemo.speechDemo-merged_res-16:/layout_list_items.xml.flat",
+        "source": "com.iflytek.voicedemo.speechDemo-main-18:/layout/list_items.xml"
+    },
+    {
+        "merged": "com.iflytek.voicedemo.speechDemo-merged_res-16:/layout_activity_result_identify.xml.flat",
+        "source": "com.iflytek.voicedemo.speechDemo-main-18:/layout/activity_result_identify.xml"
+    },
+    {
+        "merged": "com.iflytek.voicedemo.speechDemo-merged_res-16:/drawable_setting_p.png.flat",
+        "source": "com.iflytek.voicedemo.speechDemo-main-18:/drawable/setting_p.png"
+    },
+    {
+        "merged": "com.iflytek.voicedemo.speechDemo-merged_res-16:/layout_item_group.xml.flat",
+        "source": "com.iflytek.voicedemo.speechDemo-main-18:/layout/item_group.xml"
+    },
+    {
+        "merged": "com.iflytek.voicedemo.speechDemo-merged_res-16:/drawable-mdpi_icon.png.flat",
+        "source": "com.iflytek.voicedemo.speechDemo-main-18:/drawable-mdpi/icon.png"
+    },
+    {
+        "merged": "com.iflytek.voicedemo.speechDemo-merged_res-16:/drawable_list_bg_color.xml.flat",
+        "source": "com.iflytek.voicedemo.speechDemo-main-18:/drawable/list_bg_color.xml"
+    },
+    {
+        "merged": "com.iflytek.voicedemo.speechDemo-merged_res-16:/layout_ifly_layout_mnotice_image.xml.flat",
+        "source": "com.iflytek.voicedemo.speechDemo-main-18:/layout/ifly_layout_mnotice_image.xml"
+    },
+    {
+        "merged": "com.iflytek.voicedemo.speechDemo-merged_res-16:/xml_ise_settings.xml.flat",
+        "source": "com.iflytek.voicedemo.speechDemo-main-18:/xml/ise_settings.xml"
+    },
+    {
+        "merged": "com.iflytek.voicedemo.speechDemo-merged_res-16:/layout_online_facedemo.xml.flat",
+        "source": "com.iflytek.voicedemo.speechDemo-main-18:/layout/online_facedemo.xml"
+    },
+    {
+        "merged": "com.iflytek.voicedemo.speechDemo-merged_res-16:/drawable_user.png.flat",
+        "source": "com.iflytek.voicedemo.speechDemo-main-18:/drawable/user.png"
+    },
+    {
+        "merged": "com.iflytek.voicedemo.speechDemo-merged_res-16:/layout_ttsdemo.xml.flat",
+        "source": "com.iflytek.voicedemo.speechDemo-main-18:/layout/ttsdemo.xml"
+    },
+    {
+        "merged": "com.iflytek.voicedemo.speechDemo-merged_res-16:/xml_tts_setting.xml.flat",
+        "source": "com.iflytek.voicedemo.speechDemo-main-18:/xml/tts_setting.xml"
+    },
+    {
+        "merged": "com.iflytek.voicedemo.speechDemo-merged_res-16:/layout_group_header_layout.xml.flat",
+        "source": "com.iflytek.voicedemo.speechDemo-main-18:/layout/group_header_layout.xml"
+    },
+    {
+        "merged": "com.iflytek.voicedemo.speechDemo-merged_res-16:/drawable-ldpi_icon.png.flat",
+        "source": "com.iflytek.voicedemo.speechDemo-main-18:/drawable-ldpi/icon.png"
+    },
+    {
+        "merged": "com.iflytek.voicedemo.speechDemo-merged_res-16:/layout_isrdemo.xml.flat",
+        "source": "com.iflytek.voicedemo.speechDemo-main-18:/layout/isrdemo.xml"
+    },
+    {
+        "merged": "com.iflytek.voicedemo.speechDemo-merged_res-16:/drawable-hdpi_no_photo.png.flat",
+        "source": "com.iflytek.voicedemo.speechDemo-main-18:/drawable-hdpi/no_photo.png"
+    },
+    {
+        "merged": "com.iflytek.voicedemo.speechDemo-merged_res-16:/xml_understand_setting.xml.flat",
+        "source": "com.iflytek.voicedemo.speechDemo-main-18:/xml/understand_setting.xml"
+    },
+    {
+        "merged": "com.iflytek.voicedemo.speechDemo-merged_res-16:/layout_item_identify_result.xml.flat",
+        "source": "com.iflytek.voicedemo.speechDemo-main-18:/layout/item_identify_result.xml"
+    },
+    {
+        "merged": "com.iflytek.voicedemo.speechDemo-merged_res-16:/layout_main.xml.flat",
+        "source": "com.iflytek.voicedemo.speechDemo-main-18:/layout/main.xml"
+    },
+    {
+        "merged": "com.iflytek.voicedemo.speechDemo-merged_res-16:/layout_understander.xml.flat",
+        "source": "com.iflytek.voicedemo.speechDemo-main-18:/layout/understander.xml"
+    },
+    {
+        "merged": "com.iflytek.voicedemo.speechDemo-merged_res-16:/layout_activity_face_identify.xml.flat",
+        "source": "com.iflytek.voicedemo.speechDemo-main-18:/layout/activity_face_identify.xml"
+    },
+    {
+        "merged": "com.iflytek.voicedemo.speechDemo-merged_res-16:/xml_file_paths.xml.flat",
+        "source": "com.iflytek.voicedemo.speechDemo-main-18:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.iflytek.voicedemo.speechDemo-merged_res-16:/drawable-hdpi_icon.png.flat",
+        "source": "com.iflytek.voicedemo.speechDemo-main-18:/drawable-hdpi/icon.png"
+    },
+    {
+        "merged": "com.iflytek.voicedemo.speechDemo-merged_res-16:/layout_iatdemo.xml.flat",
+        "source": "com.iflytek.voicedemo.speechDemo-main-18:/layout/iatdemo.xml"
+    },
+    {
+        "merged": "com.iflytek.voicedemo.speechDemo-merged_res-16:/layout_isedemo.xml.flat",
+        "source": "com.iflytek.voicedemo.speechDemo-main-18:/layout/isedemo.xml"
+    }
+]

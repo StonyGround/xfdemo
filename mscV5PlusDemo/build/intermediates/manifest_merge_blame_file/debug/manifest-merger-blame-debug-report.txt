@@ -1,0 +1,114 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.iflytek.mscv5plusdemo" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="21"
+6-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml
+7        android:targetSdkVersion="32" />
+7-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.INTERNET" />
+9-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:5:5-67
+9-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:5:22-64
+10    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+10-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:6:5-71
+10-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:6:22-68
+11    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+11-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:7:5-75
+11-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:7:22-72
+12
+13    <application
+13-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:9:5-52:19
+14        android:name="com.iflytek.mscv5plusdemo.SpeechApp"
+14-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:11:9-33
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.5.0] /Users/cl/.gradle/caches/transforms-3/09dce287f966ede6f56d2bc091f83727/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@drawable/icon"
+17-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:10:9-38
+18        android:label="讯飞语音示例v5+"
+18-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:12:9-34
+19        android:testOnly="true" >
+20        <activity
+20-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:13:9-25:20
+21            android:name="com.iflytek.mscv5plusdemo.MainActivity"
+21-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:14:13-66
+22            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+22-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:15:13-133
+23            android:exported="true"
+23-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:19:11-34
+24            android:icon="@drawable/icon"
+24-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:16:13-42
+25            android:label="讯飞语音示例v5+"
+25-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:17:13-38
+26            android:screenOrientation="portrait" >
+26-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:18:13-49
+27            <intent-filter>
+27-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:20:13-24:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:21:17-69
+28-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:21:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:23:17-77
+30-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:23:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity android:name="com.iflytek.speech.setting.TtsSettings" />
+33-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:26:9-74
+33-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:26:19-72
+34        <activity android:name="com.iflytek.speech.setting.IatSettings" />
+34-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:27:9-74
+34-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:27:19-72
+35        <activity
+35-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:28:9-31:51
+36            android:name="com.iflytek.mscv5plusdemo.IatDemo"
+36-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:29:13-61
+37            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+37-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:30:13-133
+38            android:screenOrientation="portrait" />
+38-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:31:13-49
+39        <activity
+39-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:32:9-35:51
+40            android:name="com.iflytek.mscv5plusdemo.AsrDemo"
+40-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:33:13-61
+41            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+41-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:34:13-133
+42            android:screenOrientation="portrait" />
+42-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:35:13-49
+43        <activity
+43-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:36:9-39:51
+44            android:name="com.iflytek.mscv5plusdemo.TtsDemo"
+44-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:37:13-61
+45            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+45-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:38:13-133
+46            android:screenOrientation="portrait" />
+46-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:39:13-49
+47        <activity
+47-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:40:9-43:51
+48            android:name="com.iflytek.mscv5plusdemo.IvwActivity"
+48-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:41:13-65
+49            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+49-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:42:13-133
+50            android:screenOrientation="portrait" />
+50-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:43:13-49
+51        <activity
+51-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:44:9-47:51
+52            android:name="com.iflytek.mscv5plusdemo.WakeDemo"
+52-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:45:13-62
+53            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+53-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:46:13-133
+54            android:screenOrientation="portrait" />
+54-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:47:13-49
+55        <activity
+55-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:48:9-51:51
+56            android:name="com.iflytek.mscv5plusdemo.OneShotDemo"
+56-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:49:13-65
+57            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+57-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:50:13-133
+58            android:screenOrientation="portrait" />
+58-->/Users/cl/StudioProjects/MyApplication/mscV5PlusDemo/src/main/AndroidManifest.xml:51:13-49
+59    </application>
+60
+61</manifest>

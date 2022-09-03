@@ -1,0 +1,180 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.iflytek.voicedemo" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="21"
+6-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml
+7        android:targetSdkVersion="32" />
+7-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.INTERNET" />
+9-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:5:3-65
+9-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:5:20-62
+10    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+10-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:6:3-69
+10-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:6:20-66
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:7:3-63
+11-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:7:20-60
+12    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+12-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:8:3-73
+12-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:8:20-70
+13
+14    <application
+14-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:10:3-88:17
+15        android:name="com.iflytek.voicedemo.SpeechApp"
+15-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:12:5-29
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.5.0] /Users/cl/.gradle/caches/transforms-3/09dce287f966ede6f56d2bc091f83727/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:icon="@drawable/icon"
+18-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:11:5-34
+19        android:label="讯飞语音示例"
+19-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:13:5-27
+20        android:testOnly="true" >
+21        <provider
+21-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:14:5-22:16
+22            android:name="androidx.core.content.FileProvider"
+22-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:15:7-56
+23            android:authorities="com.iflytek.voicedemo.fileprovider"
+23-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:16:7-63
+24            android:exported="false"
+24-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:17:7-31
+25            android:grantUriPermissions="true" >
+25-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:18:7-41
+26            <meta-data
+26-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:19:7-21:46
+27                android:name="android.support.FILE_PROVIDER_PATHS"
+27-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:20:9-59
+28                android:resource="@xml/file_paths" />
+28-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:21:9-43
+29        </provider>
+30
+31        <activity
+31-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:24:5-36:16
+32            android:name="com.iflytek.voicedemo.MainActivity"
+32-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:25:7-56
+33            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+33-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:26:7-127
+34            android:exported="true"
+34-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:30:7-30
+35            android:icon="@drawable/icon"
+35-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:27:7-36
+36            android:label="讯飞语音示例"
+36-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:28:7-29
+37            android:screenOrientation="portrait" >
+37-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:29:7-43
+38            <intent-filter>
+38-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:31:7-35:23
+39                <action android:name="android.intent.action.MAIN" />
+39-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:32:9-61
+39-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:32:17-58
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:34:9-69
+41-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:34:19-66
+42            </intent-filter>
+43        </activity>
+44        <activity android:name="com.iflytek.speech.setting.TtsSettings" />
+44-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:37:5-71
+44-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:37:15-68
+45        <activity android:name="com.iflytek.speech.setting.IatSettings" />
+45-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:38:5-71
+45-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:38:15-68
+46        <activity
+46-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:39:5-42:46
+47            android:name="com.iflytek.voicedemo.IatDemo"
+47-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:40:7-51
+48            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+48-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:41:7-127
+49            android:screenOrientation="portrait" />
+49-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:42:7-43
+50        <activity
+50-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:43:5-46:46
+51            android:name="com.iflytek.voicedemo.AsrDemo"
+51-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:44:7-51
+52            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+52-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:45:7-127
+53            android:screenOrientation="portrait" />
+53-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:46:7-43
+54        <activity
+54-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:47:5-50:46
+55            android:name="com.iflytek.voicedemo.TtsDemo"
+55-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:48:7-51
+56            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+56-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:49:7-127
+57            android:screenOrientation="portrait" />
+57-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:50:7-43
+58        <activity
+58-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:51:5-54:46
+59            android:name="com.iflytek.voicedemo.IseDemo"
+59-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:52:7-51
+60            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+60-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:53:7-127
+61            android:screenOrientation="portrait" />
+61-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:54:7-43
+62        <activity
+62-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:55:5-58:46
+63            android:name="com.iflytek.voicedemo.faceonline.OnlineFaceDemo"
+63-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:56:7-69
+64            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+64-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:57:7-127
+65            android:screenOrientation="portrait" />
+65-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:58:7-43
+66        <activity
+66-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:59:5-62:46
+67            android:name="com.iflytek.voicedemo.IdentifyGroup.GroupManagerActivity"
+67-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:60:7-78
+68            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+68-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:61:7-127
+69            android:screenOrientation="portrait" />
+69-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:62:7-43
+70        <activity
+70-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:63:5-66:46
+71            android:name="com.iflytek.voicedemo.IdentifyGroup.FaceIdentifyActivity"
+71-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:64:7-78
+72            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+72-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:65:7-127
+73            android:screenOrientation="portrait" />
+73-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:66:7-43
+74        <activity
+74-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:67:5-70:46
+75            android:name="com.iflytek.voicedemo.IdentifyGroup.ResultIdentifyActivity"
+75-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:68:7-80
+76            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+76-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:69:7-127
+77            android:screenOrientation="portrait" />
+77-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:70:7-43
+78        <activity
+78-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:71:5-74:46
+79            android:name="com.iflytek.speech.setting.IseSettings"
+79-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:72:7-60
+80            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+80-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:73:7-127
+81            android:screenOrientation="portrait" />
+81-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:74:7-43
+82        <activity
+82-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:75:5-78:46
+83            android:name="com.iflytek.speech.setting.UrlSettings"
+83-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:76:7-60
+84            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|fontScale"
+84-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:77:7-127
+85            android:screenOrientation="portrait" />
+85-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:78:7-43
+86        <!-- 移动统计分析 -->
+87        <meta-data
+87-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:80:5-82:36
+88            android:name="IFLYTEK_APPKEY"
+88-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:81:7-36
+89            android:value="&apos;5cee406c&apos;" />
+89-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:82:7-33
+90        <meta-data
+90-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:83:5-85:38
+91            android:name="IFLYTEK_CHANNEL"
+91-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:84:7-37
+92            android:value="Android_Demo" />
+92-->/Users/cl/StudioProjects/MyApplication/speechDemo/src/main/AndroidManifest.xml:85:7-35
+93    </application>
+94
+95</manifest>
